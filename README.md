@@ -14,19 +14,19 @@ Todos os trabalhos se baseiam no estudo e apliação de SQl, PostgreSQL e MySQL 
 <table>
     <tr align="center">
          <td>
-            <img alt="Icon JavaScript" title="JavaScript" height="60" src="#">
+            <img alt="Icon JavaScript" title="JavaScript" height="60" src="https://github.com/Propato/trabalhos-Ufes-BD/assets/84464307/18043c1e-dbbe-4a3a-938d-919f8e998e74">
          </td>
          <td>    
-            <img alt="Icon NodeJS" title="NodeJS" height="60" src="#">
+            <img alt="Icon NodeJS" title="NodeJS" height="60" src="https://github.com/Propato/trabalhos-Ufes-BD/assets/84464307/adc0c5a2-b3ae-41a8-9225-d74b96abf3a6">
          </td>
          <td>
-            <img alt="Icon MySQL" title="MySQL" height="60" src="#">
+            <img alt="Icon MySQL" title="MySQL" height="60" src="https://github.com/Propato/trabalhos-Ufes-BD/assets/84464307/129b5aa3-5710-4fba-9243-90b7a39a51ea">
          </td>
          <td>
-            <img alt="Icon PostgreSQL" title="PostgreSQL" height="60" src="#">
+            <img alt="Icon PostgreSQL" title="PostgreSQL" height="60" src="https://github.com/Propato/trabalhos-Ufes-BD/assets/84464307/7c4b57a0-7b2e-40da-823a-451e00d40057">
          </td>
          <td>
-            <img alt="Icon Docker" title="Docker" height="60" src="#">
+            <img alt="Icon Docker" title="Docker" height="60" src="https://github.com/Propato/trabalhos-Ufes-BD/assets/84464307/5d5b4404-61bb-415f-8a1d-7eb5652ba152">
          </td>
          <td>
             <img alt="Icon Git" title="Git" height="60" src="https://user-images.githubusercontent.com/84464307/224510001-3e60f54c-2a0a-4ae9-bee6-f5b10df9ecf1.svg">
