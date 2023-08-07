@@ -1,0 +1,69 @@
+{ 
+    "docker.commands.composeUp": [
+        {
+            "label": "dev-match",
+            "template": "docker compose -f docker-compose.yml ${configurationFile} up --build",
+            "match": "dev"
+        },
+        {
+            "label": "prod-match",
+            "template": "docker compose -f docker-compose.yml ${configurationFile} up",
+            "match": "prod"
+        },
+        {
+            "label": "env-match",
+            "template": "docker compose --env-file=tests/env/.env ${configurationFile} up",
+            "match": "env"
+        },
+        {
+            "label": "secrets-match",
+            "template": "docker compose ${configurationFile} up",
+            "match": "secrets"
+        },
+        {
+            "label": "networks-match",
+            "template": "docker compose ${configurationFile} up",
+            "match": "networks"
+        },
+        {
+            "label": "volume-match",
+            "template": "docker compose ${configurationFile} up",
+            "match": "volume"
+        },
+        {
+            "label": "healthcheck-match",
+            "template": "docker compose ${configurationFile} up",
+            "match": "healthcheck"
+        }
+    ],
+    "docker.commands.composeDown": [
+        {
+            "label": "env-match",
+            "template": "docker compose ${configurationFile} down",
+            "match": "env"
+        },
+        {
+            "label": "secrets-match",
+            "template": "docker compose ${configurationFile} down",
+            "match": "secrets"
+        },
+        {
+            "label": "networks-match",
+            "template": "docker compose ${configurationFile} down",
+            "match": "networks"
+        },
+        {
+            "label": "volume-match",
+            "template": "docker compose ${configurationFile} down",
+            "match": "volume"
+        },
+        {
+            "label": "healthcheck-match",
+            "template": "docker compose ${configurationFile} down",
+            "match": "healthcheck"
+        },
+        {
+            "template": "docker compose -f docker-compose.yml ${configurationFile} down"
+        }
+    ]
+}
